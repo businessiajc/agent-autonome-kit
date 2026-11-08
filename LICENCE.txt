@@ -1,0 +1,19 @@
+KIT DE L'AGENT AUTONOME - LICENCE D'UTILISATION (version provisoire)
+
+Copyright (c) 2026 Jarod Capella. Tous droits reserves.
+
+Vous avez le droit, gratuitement :
+- d'utiliser ce kit pour construire et faire tourner votre propre agent, pour un usage personnel ou professionnel ;
+- de l'adapter a votre situation pour votre propre usage ;
+- de proposer des corrections ou des idees a l'auteur.
+
+Sans accord ecrit prealable de l'auteur, il est interdit :
+- de vendre, louer, redistribuer ou republier le kit, ses copies ou des versions modifiees ;
+- de presenter le kit comme votre oeuvre ;
+- de retirer cette notice ou les mentions d'auteur.
+
+GARANTIE. Le kit est fourni "tel quel", sans garantie d'aucune sorte. Un agent autonome peut commettre des erreurs ou des actions non voulues : vous restez seul responsable de ce que vous lui autorisez et de l'usage de vos propres comptes et de votre propre facturation. L'auteur n'est pas responsable des dommages resultant de l'utilisation du kit.
+
+MARQUES. Ce kit n'est ni affilie, ni approuve par Anthropic. Claude et Claude Code sont des marques d'Anthropic.
+
+Ce texte est provisoire. Il n'a pas ete relu par un juriste. L'auteur peut publier les versions futures sous une autre licence ; les versions deja publiees gardent la licence sous laquelle elles l'ont ete.

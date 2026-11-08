@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "consigne": "Registre des agents. Tout agent ou sous-agent cree DOIT etre ajoute ici avec un nom clair qui dit ce qu'il fait. Copie ce fichier en AGENTS.json pour l'utiliser.",
+  "agents": [
+    {
+      "id": "agent-cycle",
+      "nom": "Bilan du matin",
+      "role": "Verifie que les services repondent, fait avancer les experiences, apprend un point nouveau, ecrit le rapport du jour.",
+      "type": "planifie",
+      "horaires": ["{{HEURE_CYCLE}}"],
+      "fichier": "_outils/run_agent.py",
+      "mode": "cycle",
+      "etat": "actif"
+    },
+    {
+      "id": "agent-veille",
+      "nom": "Veille et verification des faits",
+      "role": "Reverifie les faits dates de plus de 30 jours et explore une piste nouvelle (leger, sans publication).",
+      "type": "planifie",
+      "horaires": ["{{HEURE_VEILLE_1}}", "{{HEURE_VEILLE_2}}"],
+      "fichier": "_outils/run_agent.py",
+      "mode": "veille",
+      "etat": "actif"
+    },
+    {
+      "id": "agent-travail",
+      "nom": "Seance de travail",
+      "role": "Construit une chose nouvelle (outil, page, donnee, experience), la teste, la publie si c'est sur et autorise.",
+      "type": "planifie",
+      "horaires": ["{{HEURE_TRAVAIL_1}}", "{{HEURE_TRAVAIL_2}}"],
+      "fichier": "_outils/run_agent.py",
+      "mode": "travail",
+      "etat": "actif"
+    },
+    {
+      "id": "relecteur-exemple",
+      "nom": "Relecteur adverse (exemple de sous-agent)",
+      "role": "Cherche erreurs de calcul, faits non sources et bugs dans un livrable avant publication.",
+      "type": "sous-agent",
+      "horaires": [],
+      "fichier": "{{LIVRABLE_RELU}}",
+      "etat": "termine"
+    }
+  ]
+}

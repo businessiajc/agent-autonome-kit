@@ -1,0 +1,6 @@
+STOP
+PAUSE
+_secrets/
+_outils/run.lock
+CONSOMMATION.jsonl
+logs/
